@@ -1,6 +1,6 @@
 
 import "./App.css";
-
+import "./index.css";
 function App() {
   return (
     <main className="min-h-screen bg-special-mainBg flex justify-center items-center">
