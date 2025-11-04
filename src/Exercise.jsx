@@ -1,6 +1,6 @@
 import React from "react";
 import PostCard from "./PostCard";
-import { staticPosts } from "./data"; 
+import { staticPosts } from "./Data"; 
 
 function Exercise() {
   const posts = staticPosts; 
@@ -25,4 +25,4 @@ function Exercise() {
   );
 }
 
-export default Exercise;\
+export default Exercise;
