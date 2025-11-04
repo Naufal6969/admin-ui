@@ -1,12 +1,11 @@
-// Lokasi: src/main.jsx
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
+import Exercise from './Exercise.jsx'
 
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import Exercise from "./Exercise.jsx";
-
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
     <Exercise />
-  </React.StrictMode>
-);
+  </StrictMode>,
+)
